@@ -64,6 +64,7 @@ export class AccountRepository extends Repository {
         }
       }
     });
+    console.log(response)
     return response.body.logged_in_user;
   }
 
